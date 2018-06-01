@@ -4,6 +4,7 @@
     Welcome to {{ title }}!
   </h1>
   <a routerLink="/test">Heroes</a>
+  <app-child childTitle="wenwen" (follow)="doFollow($event)"></app-child>
   <router-outlet></router-outlet>
 </div>
 

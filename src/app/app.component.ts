@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  doFollow(data:string){
+    alert(data);
+    console.warn('父组件接收值：'+data);
+  }
 }
